@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('simple-chart-app-e App', () => {
+describe('workspace-project App', () => {
   let page: AppPage;
 
   beforeEach(() => {
@@ -9,6 +9,6 @@ describe('simple-chart-app-e App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toContain('AppE!');
+    expect(page.getParagraphText()).toEqual('Welcome to SimpleChart-AppE!');
   });
 });
