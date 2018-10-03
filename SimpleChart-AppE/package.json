@@ -30,6 +30,7 @@
     "highcharts": "^6.1.4",
     "highcharts-angular": "^2.2.0",
     "rxjs": "~6.2.0",
+    "typescript": "~2.9.2",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
@@ -54,7 +55,7 @@
     "typescript": "~2.9.2"
   },
   "engines": {
-    "node": "9.0.0",
-    "npm": "5.5.1"
+    "node": "9.11.2",
+    "npm": "5.6.0"
   }
 }

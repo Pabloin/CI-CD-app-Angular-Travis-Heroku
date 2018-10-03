@@ -6,7 +6,7 @@ const app = express();
 
 
 // // HTTPS only middleware
-// const forceSSL = function() { 
+// const forceSSL = function() {
 //     return function(req, res, next) {
 //         if (req.headers['x-forwarded-proto'] !== 'https') {
 //             return res.redirect(
@@ -18,9 +18,9 @@ const app = express();
 // };
 // app.use(forceSSL());
 
-const PORT = process.env.PORT || 9999
+const PORT = process.env.PORT || 9995
 
-const isHeroku =  (PORT != 9999)
+const isHeroku =  (PORT != 9995)
 
 console.log('[' + isHeroku + '] Simple Chart AppA listening ' + __dirname + '/dist')
 
