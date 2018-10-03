@@ -1,0 +1,8 @@
+.centrado {
+    margin: 0 auto;
+    width: 90%;
+    display: block;
+    text-align: center;
+    padding: 0 0 30px 0;
+
+}
