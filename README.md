@@ -6,6 +6,8 @@ Simple Apps para mostrar distitas formas de hacer
 
 Aplicaciones a Construir, seguimos las vocales: app[aeiou]]
 
+Seguimos respetando GitFlow
+
 # SimpleChart-appa
 
 La primera de las aplicaciones *appa*

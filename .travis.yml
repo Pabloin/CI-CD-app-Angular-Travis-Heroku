@@ -24,8 +24,8 @@ deploy:
     api_key:
       secure: $HEROKU_KEY_USER_PABLOIN
     app:
-      master: cicd-appa
-      develop: cicd-appa-dev
+      master: cicd-app
+      develop: cicd-app-dev
     on:
       repo: Pabloin/CI-CD-app-Angular-Travis-Heroku
 
