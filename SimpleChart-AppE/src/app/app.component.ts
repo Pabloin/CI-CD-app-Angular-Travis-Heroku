@@ -8,12 +8,12 @@ import * as Highcharts from 'highcharts';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'SimpleChart-AppE APBLO';
+  title = 'SimpleChart-AppE';
 
   Highcharts = Highcharts;
   chartOptions = {
     series: [{
-      data: [1, 2, 3]
+      data: [2.0, 3.4, 4.3, 2.5, 6.8, 4.2]
     }]
   };
 

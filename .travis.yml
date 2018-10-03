@@ -6,6 +6,9 @@ branches:
   only:
     - master
     - develop
+    - a-demo
+    - e-demo
+    - i-demo
 
 cache:
   directories:
@@ -14,7 +17,7 @@ cache:
   - SimpleChart-AppI/node_modules
 
 before_install:
-  cd SimpleChart-AppA
+  cd SimpleChart-AppE
 
 before_script:
   - npm install -g @angular/cli
@@ -29,6 +32,9 @@ deploy:
     app:
       master: cicd-app
       develop: cicd-app-dev
+      a-demo: cicd-aaa
+      e-demo: cicd-eee
+      i-demo: cicd-iii
     on:
       repo: Pabloin/CI-CD-app-Angular-Travis-Heroku
 
