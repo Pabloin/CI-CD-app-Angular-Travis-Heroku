@@ -8,10 +8,13 @@ branches:
     - develop
 
 cache:
-  directories: SimpleChart-appa/node_modules
+  directories:
+  - SimpleChart-AppA/node_modules
+  - SimpleChart-AppE/node_modules
+  - SimpleChart-AppI/node_modules
 
 before_install:
-  cd SimpleChart-appa
+  cd SimpleChart-AppA
 
 before_script:
   - npm install -g @angular/cli

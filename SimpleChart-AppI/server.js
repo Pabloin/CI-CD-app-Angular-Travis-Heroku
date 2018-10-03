@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 9999
 
 const isHeroku =  (PORT != 9999)
 
-console.log('[' + isHeroku + '] Simple Chart AppA listening ' + __dirname + '/dist')
+console.log('[' + isHeroku + '] Simple Chart AppI listening ' + __dirname + '/dist')
 
 app.use(express.static(__dirname + '/dist'));
 
@@ -30,4 +30,4 @@ app.listen(PORT, function() {
     console.log('Angular app running!  ');
 });
 
-console.log('Simple Chart AppA listening on port ' + (isHeroku?'':'http://localhost:') + PORT + ' - sobre /dist');
+console.log('Simple Chart AppI listening on port ' + (isHeroku?'':'http://localhost:') + PORT + ' - sobre /dist');
