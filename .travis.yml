@@ -31,7 +31,7 @@ deploy:
 
 
 notifications:
-  slack: devops-arg:4pqehU7DgM2Vvrcyfu52j6Pc
+  slack: devops-arg:20mXVmmmmmmmmmmmmGqfnYF0
 
 
 
@@ -45,6 +45,9 @@ notifications:
 
   # notifications:
   #   slack: '<account>:<token>#development'
+
+  # Utilizo
+  # travis encrypt via-glaciar:20mXVmmmmmmmmmmmmGqfnYF0  --add notifications.slack.rooms
 
 # https://docs.travis-ci.com/user/customizing-the-build/
 # Travis build lifecycle, including three optional deployment steps
