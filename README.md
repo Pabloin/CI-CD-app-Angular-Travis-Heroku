@@ -21,3 +21,11 @@ https://github.com/highcharts/highcharts-angular#options-details
 
 Highcharts official wrapper for Angular
 Official minimal Highcharts wrapper for Angular
+
+
+# PARA LEER:
+
+Version 6 of Angular Now Available
+https://blog.angular.io/version-6-of-angular-now-available-cc56b0efa7a4
+https://alligator.io/angular/angular-6/
+
