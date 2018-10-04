@@ -17,7 +17,7 @@ cache:
   - SimpleChart-AppI/node_modules
 
 before_install:
-  cd SimpleChart-AppA
+  cd SimpleChart-AppE
 
 before_script:
   - npm install -g @angular/cli
